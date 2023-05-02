@@ -5,7 +5,7 @@ import { createMemoryHistory } from 'history';
 import userEvent from '@testing-library/user-event';
 import App from '../App';
 
-describe('Testando componente APP', () => {
+describe('Testing App Page', () => {
   const renderWithRouter = (component) => {
     const history = createMemoryHistory();
     return ({
@@ -26,7 +26,7 @@ describe('Testando componente APP', () => {
     expect(aboutTitle).toBeInTheDocument();
   });
 
-  it('third link should have the name Favorite Pokeon', () => {
+  it('third link should have the name Favorite Pokemon', () => {
     renderWithRouter(<App />);
     const favoriteTitle = screen.getByText(/favorite pokémon/i);
     expect(favoriteTitle).toBeInTheDocument();
