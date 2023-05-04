@@ -33,7 +33,6 @@ describe('Testing the Pokedex Page', () => {
 
     expect(() => { (nextPokemon).toBeCalled(); });
   });
-  // falta um teste em clicar no All e conferir se o pikachu volta na tela (getbytext)
   it('Pikachu will get back on the screen when pressing the All button', () => {
     renderWithRouter(<App />);
 
@@ -55,19 +54,12 @@ describe('Testing the Pokedex Page', () => {
 
     expect(getPikachu).toBeInTheDocument();
   });
-  // conferir se existe 7 botões de categoria na tela (getAllByTestId)
   it('Should exist 7 categories buttons in the screen', () => {
     renderWithRouter(<App />);
 
     const btnsTestId = screen.getAllByTestId('pokemon-type-button');
     expect(btnsTestId.length).toBe(7);
   });
-  // Um test em que ao clicar na categoria aparece o pokemon da categoria clicada
-  /* it('Show the correct type of pokemon on the list', () => {
-
-  }); */
-  // (posso fazer junto com a linha 38) - conferir o texto dos botões
-  // teste em que ao clicar no botao de proximo pokemon conferir se o pokemon muda na tela (similar a linha 37)
   it('When clicking next pokemon should appears in the screen', () => {
     renderWithRouter(<App />);
 
