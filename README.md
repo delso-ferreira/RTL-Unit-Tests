@@ -1,13 +1,17 @@
-# :construction: README customizado em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto no qual você pode customizar e reutilizar todas as vezes que for executar o trybe-publisher.
+<h1>Projeto de Testes Unitários com React Testing Library 🧪</h1>
 
-Para deixá-lo com a sua cara, basta alterar o seguinte arquivo da sua máquina: ~/.student-repo-publisher/custom/_NEW_README.md
+Este repositório contém o código fonte de um projeto de testes unitários em <strong>React</strong> utilizando a biblioteca <strong>React Testing Library</strong> e o framework <strong>Jest</strong>. A estrutura do projeto foi fornecida pela escola de tecnologia da <strong>Trybe</strong> como parte do curso de Desenvolvimento Web Full Stack.
 
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+O objetivo deste projeto é desenvolver testes unitários para uma aplicação em React já existente, utilizando a biblioteca React Testing Library. A aplicação consiste em uma listagem de Pokemons, onde é possível verificar diversas características desse Pokémon, assim como favoritá-lo para uma página de favoritos. 
+
+<h2>Instalação</h2>
+
+<h3>Clone o repositório:</h3>
+
+git clone https://github.com/seu-usuario/nome-do-repositorio.git
+
+<h3>Acesse a pasta do projeto:</h3>
+
+cd nome-do-repositorio
+
+
